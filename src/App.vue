@@ -1,7 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Головна</router-link> |
+    <router-link to="/drivers">Наші водії</router-link> |
+    <router-link to="/busses">Наші автобуси</router-link> |
+    <router-link to="/distribution">Призначення</router-link> |
+    <router-link to="/contacts">Контакти</router-link>
+    
   </nav>
   <router-view />
 </template>
